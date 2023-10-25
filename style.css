@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(./imege/concept-construction-page-site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .navbar-title {
+    height: 8vh;
+    width: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Sometype Mono', monospace;
+
+} */
+
+.navbar-title__a {
+    width: calc(100%-700px);
+    background-color:gray;
+    align-items: center;
+    /* padding-left: 8px; */
+    font-size: 20px;
+    font-family: 'Sometype Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 92px;
+    text-align: center;
+}
+a:hover , h2:hover{
+    color:aliceblue;
+    transition: 0.8s;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid aliceblue;
+}
+h2{
+    border-radius: 8px;
+    background-color:aliceblue;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    width: 102px;
+    text-align: center;
+}
